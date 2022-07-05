@@ -1,0 +1,45 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--cor-principal);
+}
+
+.subtitulo{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-principal);
+}
+
+
+.descricao{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--cor-principal);
+}
+
+.titulo-laranja{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--cor-detalhes);
+    text-transform: uppercase;
+}
+
+.titulo-azul{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--cor-detalhes);
+}

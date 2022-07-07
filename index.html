@@ -44,13 +44,13 @@
         <p class="subtitulo">
           Encontre em nossa estante o que precisa para seu desenvolvimento!
         </p>
-        <a class="pesquisa__button descricao decorador-false" href="#">
+        <a class="pesquisa__button descricao-branco decorador-false" href="#">
           <img src="./asserts/img/Vector.svg" alt="" />
           Qual será sua próxima leitura?
         </a>
       </section>
 
-      <h1 class="titulo-laranja titulo_margin">ÚLTIMOS LANÇAMENTOS</h1>
+      <h1 class="titulo-laranja titulo__fundo">ÚLTIMOS LANÇAMENTOS</h1>
 
       <section class="ultimoslancamentos">
         <div class="swiper">
@@ -59,26 +59,75 @@
           <div class="swiper-scrollbar"></div>
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="./asserts/img/livros/ApacheKafka.svg" alt="" />
+              <img
+                src="./asserts/img/livros/ApacheKafka.svg"
+                alt="Ultimo lancamento do livro apache kafka"
+              />
             </div>
             <div class="swiper-slide">
-              <img src="./asserts/img/livros/Arquitetura.svg" alt="" />
+              <img
+                src="./asserts/img/livros/Arquitetura.svg"
+                alt="Ultimo lancamento do livros sobre Arquitetura"
+              />
             </div>
             <div class="swiper-slide">
-              <img src="./asserts/img/livros/Construct2.svg" alt="" />
+              <img
+                src="./asserts/img/livros/Construct2.svg"
+                alt="Ultimo lancamento do livro sobre Construct2"
+              />
             </div>
             <div class="swiper-slide">
-              <img src="./asserts/img/livros/Gestão.svg" alt="" />
+              <img
+                src="./asserts/img/livros/Gestão.svg"
+                alt="Ultimo lancamento do livro sobre Gestao"
+              />
             </div>
             <div class="swiper-slide">
-              <img src="./asserts/img/livros/Gestão2.svg" alt="" />
+              <img
+                src="./asserts/img/livros/Gestão2.svg"
+                alt="Ultimo lancamento do livro sobre Gesta 2"
+              />
             </div>
             <div class="swiper-slide">
-              <img src="./asserts/img/livros/Javascript.svg" alt="" />
+              <img
+                src="./asserts/img/livros/Javascript.svg"
+                alt="Ultimo lancamento do livro Javascript"
+              />
             </div>
             <div class="swiper-slide">
-              <img src="./asserts/img/livros/Liderança.svg" alt="" />
+              <img
+                src="./asserts/img/livros/Liderança.svg"
+                alt="Ultimo lancamento do livro sobre Lideranca"
+              />
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="card">
+          <div class="card__descricao">
+            <p class="subtitulo-laranja">
+              Talvez você também se interesse por...
+            </p>
+            <p class="titulo-azul">Angular 11 e Firebase</p>
+            <p class="descricao">
+              Construindo uma aplicação integrada com a plataforma do Google.
+            </p>
+            <div class="card__acoes">
+              <img src="./asserts/img/Favoritos.svg" alt="favorito" />
+              <img src="./asserts/img/Compras.svg" alt="compras" />
+            </div>
+          </div>
+
+          <div class="card_perfil">
+            <img
+              class="card__imgperfil"
+              src="./asserts/img/Perfil-escritora 2.svg"
+              alt="Imagem de perfil da escritora"
+            />
+
+            <a class="card__button card__titulobotao--branco" href="#">Saiba mais</a>
           </div>
         </div>
       </section>
@@ -97,12 +146,6 @@
         // If we need pagination
         pagination: {
           el: ".swiper-pagination",
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-          el: ".swiper-scrollbar",
-          type: 'bullets'
         },
       });
     </script>

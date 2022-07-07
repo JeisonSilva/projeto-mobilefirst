@@ -1,7 +1,12 @@
+body{
+    background-color: var(--cor-fundo-cinza);
+}
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--cor-principal);
 
     width: 100vw;
     height: 80px;
@@ -46,7 +51,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     background: var(--cor-gradiente-azul);
 
     width: 100%;
@@ -55,11 +59,22 @@
 
 .pesquisa > p {
     text-align: center;
+
+    width: 75%;
+}
+
+.pesquisa > .titulo{
+    margin: 24px 0 16px 0;
+}
+
+.pesquisa > .subtitulo{
+    margin: 0 0 24px 0;
 }
 
 .pesquisa > a {
     display: flex;
     justify-content: center;
+    
 }
 
 .decorador-false{
@@ -77,10 +92,8 @@
 }
 
 .ultimoslancamentos{
-    background-color: var(--cor-fundo-cinza);
 
     width: 375px;
-    height: 50px;
 }
 
 .swiper-slide > img {
@@ -94,9 +107,50 @@
 
 
 .card{
-    background-color: var(--cor-fundo-cinza);
-    border-radius: 1em;
-    width: 100vh;
-    height: 295px;
+   display: flex;
+   flex-direction: row;
+   column-gap: 8px;
+   background-color: var(--cor-principal);
+   border-radius: 10px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+   margin: 16px;
+   padding: 16px;
+
+   height: 250px;
+}
+
+.card_perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.card__imgperfil{
+
+    width: 180px;
+    height: 170px;
+}
+
+.card__button{
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--cor-detalhes);
+
+    padding: 12px 16px 12px 16px;
+}
+
+.card__acoes{
+    display: flex;
+    justify-content: space-around;
+    width: 64%;
 }
 

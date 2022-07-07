@@ -18,8 +18,24 @@ html{
     color: var(--cor-principal);
 }
 
+.subtitulo-laranja{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-detalhes);
+}
+
 
 .descricao{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--cor-texto);
+}
+
+.descricao-branco{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -41,9 +57,24 @@ html{
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
-    color: var(--cor-detalhes);
+    color: var(--cor-secundaria);
 }
 
-.titulo_margin{
+.card__titulobotao--branco{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-principal);
+}
+
+.titulo__margin{
     margin: 16px 0 8px 0;
+}
+
+.titulo__fundo{
+    background-color: var(--cor-principal);
+    text-align: center;
+    width: 100%;
+    padding: 0.5em 0.5em 0.5em 0.5em;
 }

@@ -43,3 +43,7 @@ html{
     line-height: 27px;
     color: var(--cor-detalhes);
 }
+
+.titulo_margin{
+    margin: 16px 0 8px 0;
+}

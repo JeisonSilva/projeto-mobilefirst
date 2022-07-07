@@ -36,6 +36,12 @@
     margin: 0 30px 0 0px;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .pesquisa{
     display: flex;
     flex-direction: column;
@@ -69,3 +75,28 @@
     text-align: center;
 
 }
+
+.ultimoslancamentos{
+    background-color: var(--cor-fundo-cinza);
+
+    width: 375px;
+    height: 50px;
+}
+
+.swiper-slide > img {
+    width: 100%;
+}
+
+.swiper-pagination{
+    position: initial;
+    margin: 8px;
+}
+
+
+.card{
+    background-color: var(--cor-fundo-cinza);
+    border-radius: 1em;
+    width: 100vh;
+    height: 295px;
+}
+

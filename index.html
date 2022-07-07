@@ -12,7 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./asserts/css/reset.css" />
     <link rel="stylesheet" href="./asserts/css/cores.css" />
     <link rel="stylesheet" href="./asserts/css/fonts.css" />
@@ -22,7 +25,11 @@
     <header class="header">
       <div class="header__img-alinhamento header__alinhamento-left">
         <img src="./asserts/img/Menu.svg" alt="" />
-        <img class="header__img-alerta" src="./asserts/img/Polygon 1 (Stroke).svg" alt="" />
+        <img
+          class="header__img-alerta"
+          src="./asserts/img/Polygon 1 (Stroke).svg"
+          alt=""
+        />
       </div>
       <div class="header__img-alinhamento header__alinhamento-right">
         <img src="./asserts/img/Favoritos.svg" alt="" />
@@ -30,14 +37,74 @@
         <img src="./asserts/img/Usuario.svg" alt="" />
       </div>
     </header>
-    
-    <section class="pesquisa">
+
+    <main class="container">
+      <section class="pesquisa">
         <p class="titulo">Já sabe por onde começar?</p>
-        <p class="subtitulo">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <p class="subtitulo">
+          Encontre em nossa estante o que precisa para seu desenvolvimento!
+        </p>
         <a class="pesquisa__button descricao decorador-false" href="#">
-            <img src="./asserts/img/Vector.svg" alt="">
-            Qual será sua próxima leitura?
+          <img src="./asserts/img/Vector.svg" alt="" />
+          Qual será sua próxima leitura?
         </a>
-    </section>
+      </section>
+
+      <h1 class="titulo-laranja titulo_margin">ÚLTIMOS LANÇAMENTOS</h1>
+
+      <section class="ultimoslancamentos">
+        <div class="swiper">
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-scrollbar"></div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./asserts/img/livros/ApacheKafka.svg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asserts/img/livros/Arquitetura.svg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asserts/img/livros/Construct2.svg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asserts/img/livros/Gestão.svg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asserts/img/livros/Gestão2.svg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asserts/img/livros/Javascript.svg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asserts/img/livros/Liderança.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module">
+      import Swiper from "https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js";
+
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        spaceBetween: 10,
+        slidesPerView: 3,
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+          type: 'bullets'
+        },
+      });
+    </script>
   </body>
 </html>

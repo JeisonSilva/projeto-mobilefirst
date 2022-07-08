@@ -10,12 +10,36 @@ html{
     color: var(--cor-principal);
 }
 
+.titulo-1{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-principal);
+}
+
+.titulo__p--azul{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-titulo-texto);
+}
+
 .subtitulo{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: var(--cor-principal);
+}
+
+.subtitulo-2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--cor-titulo-texto);
 }
 
 .subtitulo-laranja{
@@ -41,6 +65,14 @@ html{
     font-size: 14px;
     line-height: 21px;
     color: var(--cor-principal);
+}
+
+.descricao-azul{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--cor-titulo-texto);
 }
 
 .titulo-laranja{

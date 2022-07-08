@@ -66,38 +66,15 @@
             </div>
             <div class="swiper-slide">
               <img
-                src="./asserts/img/livros/Arquitetura.svg"
-                alt="Ultimo lancamento do livros sobre Arquitetura"
+                src="./asserts/img/livros/Liderança.svg"
+                alt="Ultimo lancamento do livro sobre Lideranca"
               />
             </div>
-            <div class="swiper-slide">
-              <img
-                src="./asserts/img/livros/Construct2.svg"
-                alt="Ultimo lancamento do livro sobre Construct2"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="./asserts/img/livros/Gestão.svg"
-                alt="Ultimo lancamento do livro sobre Gestao"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="./asserts/img/livros/Gestão2.svg"
-                alt="Ultimo lancamento do livro sobre Gesta 2"
-              />
-            </div>
+
             <div class="swiper-slide">
               <img
                 src="./asserts/img/livros/Javascript.svg"
                 alt="Ultimo lancamento do livro Javascript"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="./asserts/img/livros/Liderança.svg"
-                alt="Ultimo lancamento do livro sobre Lideranca"
               />
             </div>
           </div>
@@ -127,10 +104,123 @@
               alt="Imagem de perfil da escritora"
             />
 
-            <a class="card__button card__titulobotao--branco" href="#">Saiba mais</a>
+            <a class="card__button card__titulobotao--branco" href="#"
+              >Saiba mais</a
+            >
           </div>
         </div>
       </section>
+
+      <h1 class="titulo-laranja titulo__fundo">MAIS VENDIDOS</h1>
+
+      <section class="ultimoslancamentos">
+        <div class="swiper">
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-scrollbar"></div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="./asserts/img/livros/Javascript.svg"
+                alt="Ultimo lancamento do livro Javascript"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./asserts/img/livros/ApacheKafka.svg"
+                alt="Ultimo lancamento do livro apache kafka"
+              />
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="./asserts/img/livros/Liderança.svg"
+                alt="Ultimo lancamento do livro sobre Lideranca"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="card">
+          <div class="card__descricao">
+            <p class="subtitulo-laranja">Autora do Mês</p>
+            <p class="titulo-azul">Juliana Agarikov</p>
+            <p class="descricao">
+              Analista de sistemas e escritora, Juliana é especialista em
+              Front-End.
+            </p>
+            <div class="card__acoes">
+              <img src="./asserts/img/Favoritos.svg" alt="favorito" />
+              <img src="./asserts/img/Compras.svg" alt="compras" />
+            </div>
+          </div>
+
+          <div class="card_perfil">
+            <img
+              class="card__imgperfil"
+              src="./asserts/img/Perfil-escritora 1.svg"
+              alt="Imagem de perfil da escritora"
+            />
+
+            <a class="card__button card__titulobotao--branco" href="#"
+              >Saiba mais</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="pesquisa pesquisa-margin pesquisa__width--100">
+          <p class="titulo-1">TÓPICOS VISITADOS RECENTEMENTE</p>
+          <ul class="topicos">
+            <li class="card__button card__titulobotao--branco topicos__item">
+              Android
+            </li>
+            <li class="card__button card__titulobotao--branco topicos__item">
+              Marketing Digital
+            </li>
+            <li class="card__button card__titulobotao--branco topicos__item">
+              Agile
+            </li>
+            <li class="card__button card__titulobotao--branco topicos__item">
+              Startups
+            </li>
+            <li class="card__button card__titulobotao--branco topicos__item">
+              HTML & CSS
+            </li>
+            <li class="card__button card__titulobotao--branco topicos__item">
+              Python
+            </li>
+            <li class="card__button card__titulobotao--branco topicos__item">
+              OO
+            </li>
+            <li class="card__button card__titulobotao--branco topicos__item">
+              Java
+            </li>
+          </ul>
+        </div>
+
+        <div class="contato">
+          <p class="subtitulo-2">Fique por dentro das novidades!</p>
+          <p class="titulo__p--azul">
+            Atualizações de e-books, novos livros, promoções e outros.
+          </p>
+          <a
+            class="pesquisa__button--azul descricao-azul decorador-false"
+            href="#"
+            >
+            <img src="./asserts/img/Vector (1).svg" alt="">
+            Cadastre seu e-mail</a
+          >
+        </div>
+
+        <hr>
+        <div class="footer__nomeempresa">
+            <p>Grupo Alura</p>
+        </div>
+      </footer>
     </main>
 
     <script type="module">
@@ -139,7 +229,7 @@
       const swiper = new Swiper(".swiper", {
         // Optional parameters
         direction: "horizontal",
-        spaceBetween: 10,
+        spaceBetween: 180,
         slidesPerView: 3,
         loop: true,
 
